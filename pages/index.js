@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="bg-black h-screen overflow-hidden">
       <Head>
-        <title>Spotify</title>
+        <title>Spotify Clone</title>
         <meta
           name="description"
           content="Spotify clone created using Next.js"
