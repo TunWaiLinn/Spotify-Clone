@@ -16,18 +16,6 @@ export default function Home() {
 
   return (
     <div className="bg-black h-screen overflow-hidden">
-      <Head>
-        <title>Spotify Clone</title>
-        <meta
-          name="description"
-          content="Spotify clone created using Next.js"
-        />
-        <link
-          rel="icon"
-          href="https://www.freeiconspng.com/uploads/spotify-icon-18.png"
-        ></link>
-      </Head>
-
       <main className="flex">
         <Sidebar />
 
