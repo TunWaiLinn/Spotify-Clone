@@ -5,6 +5,9 @@ const login = ({ providers }) => {
   return (
     <div className="flex flex-col justify-center items-center bg-black min-h-screen w-full">
       <img className="w-52 mb-5" src="https://links.papareact.com/9xl" alt="" />
+      <h1 className="text-white letter tracking-wide">
+        Spotify Clone created using next.js
+      </h1>
       {Object.values(providers).map((provider) => (
         <div key={provider.id}>
           <button
